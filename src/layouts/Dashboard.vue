@@ -20,7 +20,6 @@
             <!-- Menu principal-->
             <nav class="p-6">
                <h3 class="opacity-50 uppercase font-semibold tracking-wider text-xs mb-6">Menu</h3> 
-
                <div class="space-y-6">
                 <!-- passando os componentes icones na variavel icon de forma dinâmica -->
                     <MenuItem :icon="HomeIcon">Discorver</MenuItem>
@@ -28,7 +27,6 @@
                     <MenuItem :icon="TrendingUpIcon">Trending</MenuItem>
                     <MenuItem :icon="TrendingUpIcon">Trending</MenuItem>
                     <MenuItem :icon="TrendingUpIcon">Trending</MenuItem>
-                    
                </div>
             </nav>
         </div>
@@ -39,7 +37,6 @@
             <header class="flex p-5 bg-gray-800 z-20 sticky top-0 items-center justify-between">
                 <!-- componente input search -->
                 <InputSearch class="w-96"/>
-                
                 <div class="flex items-center ">
                     <div class="flex items-center space-x-3">
                         <!-- componente avatar -->
@@ -66,7 +63,6 @@
                         <div class="absolute right-6 bottom-6 px-2 py-1 rounded-lg bg-gray-800 bg-opacity-50 text-white">7 minuts  
                         </div>  
                   </div>
-                     
                </div>
                 <!--  criando cards principal -->
                <div class="rounded-3xl col-span-4 h-80 overflow-hidden relative">
@@ -75,17 +71,19 @@
                     </div>
                     <div class="z-10 absolute top-0 p-6 w-full bottom-0 ">
                         <h3 class="text-2xl max-w-xs ">How to do Basic Jumping and how to landing safely</h3>
-                <div class="absolute right-6 bottom-6 px-2 py-1 rounded-lg bg-gray-800 bg-opacity-50 text-white">7 minuts</div>  
+                    <div class="absolute right-6 bottom-6 px-2 py-1 rounded-lg bg-gray-800 bg-opacity-50 text-white">7 minuts</div>  
                   </div>
                </div>
             </div>
+
             <h1 class=" text-2xl mt-6 mb-4">Most Watched</h1>
             <!-- criando cards  -->
             <div class="grid grid-cols-4 gap-4" >
-                <!-- componente cardItem -->
+                <!-- componente cardItem  -->
                 <CardItem v-for="n of 10"/>
             </div>
            </div>
         </div>
+
     </div>
 </template>

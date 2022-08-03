@@ -10,7 +10,6 @@
                 <img src="http://via.placeholder.com/800x600" alt="" class="w-full h-full object-cover">
             </div>
        </div>
-
         <div class=" relative p-5">
             <!-- componente avatar -->
             <Avatar class="w-12 h-12 absolute right-2 -top-5 rounded-full overflow-hidden"/>
